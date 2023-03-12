@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./pexels-simon-berger-688660.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 320px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: black;
+  padding: 1em 1em;
+  margin-bottom: 1.5em;
+  font-family: Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  font-weight: 500;
+}
+#clock {
+  background-color: black;
+  padding: 1.5rem;
+}
+#clock span {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 760px) {
+  .container {
+    max-width: 500px;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  #clock span {
+    font-size: 3rem;
+  }
+}
